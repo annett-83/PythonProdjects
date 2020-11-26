@@ -1,5 +1,3 @@
-# PythonProdjects
-PythonProdjectsFile
 # игра в крестики нолики
 #создаем поле для игры на pygame
 import pygame # устанавливаем программу на питоне
@@ -66,7 +64,8 @@ while True: # команда открыть, зарыть окно в pygame
                 query = 0
                 screen.fill(black)
 
-    if not game_over:
+   
+   if not game_over:
         for row in range(3):  # число рядов с ячейами
             for col in range(3): # число ячеек по оси х в игровом поле
         # устанавливаем символы и цвет
